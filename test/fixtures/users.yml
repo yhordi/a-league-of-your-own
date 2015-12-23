@@ -9,11 +9,14 @@ rodge:
   name: 'Rodge McMalorma'
   id: 1
   password: 'Star Wars'
-
-# column: value
-#
 jaime:
   name: 'Jaime Reyes'
   id: 2
   password: 'Comics'
+no_pass:
+  name: 'No Password'
+  id: 3
+no_name:
+  password: 'yessir'
+  id: 4
 #  column: value

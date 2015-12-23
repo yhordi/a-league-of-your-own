@@ -8,4 +8,6 @@
 soccer:
   name: 'Soccer'
   id: 1
-
+baseball:
+  name: 'Baseball'
+  id: 2

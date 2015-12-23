@@ -7,6 +7,11 @@ class GameTest < ActiveSupport::TestCase
     @game.users << @user
   end
 
+  def teardown
+    @game.destroy!
+    @user.destroy!
+  end
+
   def test_standings
     assert_kind_of Standing::ActiveRecord_Associations_CollectionProxy, @game.standings
   end
