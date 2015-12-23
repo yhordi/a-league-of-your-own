@@ -5,8 +5,15 @@
 # model remove the '{}' from the fixture names and add the columns immediately
 # below each fixture, per the syntax in the comments below
 #
-one: {}
+rodge:
+  name: 'Rodge McMalorma'
+  id: 1
+  password: 'Star Wars'
+
 # column: value
 #
-two: {}
+jaime:
+  name: 'Jaime Reyes'
+  id: 2
+  password: 'Comics'
 #  column: value
